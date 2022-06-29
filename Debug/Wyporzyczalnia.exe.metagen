@@ -1,0 +1,256 @@
+  Wyporzyczalnia.Faktura.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.FakturaLista.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.Klienci.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.Logowanie.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.OknoMenu.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.OpisProjektu.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.PlatnosciMenu.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.Pracownicy.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.Rezerwacja.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.Samochody.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.StatystykiAuta.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.Trwajace.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.ZmienHaslo.resources - Embedded, ContainedInManifestFile, 
+  Wyporzyczalnia.Zwrot.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Wyporzyczalnia, Version=0.0.*, Culture=Język niezmienny (kraj niezmienny): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Wyporzyczalnia.Faktura: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID_zwrot : Public
+    Int32 ID_Klient : Public
+    Int32 ID_Pracownik : Public
+    Int32 ID_Samochod : Public
+    Int32 ID_RezerwacjaZwrot : Public
+    System.String DataZwrotu : Public
+    System.String GodzinaZwrotu : Public
+    System.String KaraNaprawa : Public
+    Double KaraNaprawa1a : Public
+    System.String KaraTermin : Public
+    Double KaraTermin1a : Public
+    System.String KaraDodatkowa : Public
+    Double KaraDodatkowa1a : Public
+    System.String Rabat : Public
+    Double Rabat1a : Public
+    System.String CenaRejestracja : Public
+    Double CenaRejestracja1a : Public
+    System.String VAT : Public
+    Double VATa : Public
+    System.String KwotaPodatku1 : Public
+    Double KwotaPodatku1a : Public
+    System.String CenaZVAT1 : Public
+    Double CenaZVAT1a : Public
+    System.String KwotaPodatku2 : Public
+    Double KwotaPodatku2a : Public
+    System.String CenaZVAT2 : Public
+    Double CenaZVAT2a : Public
+    System.String KwotaPodatku3 : Public
+    Double KwotaPodatku3a : Public
+    System.String CenaZVAT3 : Public
+    Double CenaZVAT3a : Public
+    System.String KwotaPodatku4 : Public
+    Double KwotaPodatku4a : Public
+    System.String CenaZVAT4 : Public
+    Double CenaZVAT4a : Public
+    System.String CenaDoZaplaty : Public
+    System.String BazaDanychSQL : Public
+    Int32 ID_U : Public
+Class Wyporzyczalnia.FakturaLista: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID_U : Public
+    Int32 KlientID : Public
+    System.String BazaDanychSQL : Public
+    System.String Imie : Public
+    System.String Nazwisko : Public
+    Int64 Pesel : Public
+    Int32 ID_Faktury : Public
+    System.String DataZwrotu : Public
+    System.String GodzinaZwrotu : Public
+    Int32 ID_Samochod : Public
+    Int32 ID_RezerwacjaZwrot : Public
+    System.String KaraNaprawa : Public
+    Double KaraNaprawa1a : Public
+    System.String KaraTermin : Public
+    Double KaraTermin1a : Public
+    System.String KaraDodatkowa : Public
+    Double KaraDodatkowa1a : Public
+    System.String Rabat : Public
+    Double Rabat1a : Public
+    System.String CenaRejestracja : Public
+    Double CenaRejestracja1a : Public
+    System.String VAT : Public
+    Double VATa : Public
+    System.String KwotaPodatku1 : Public
+    Double KwotaPodatku1a : Public
+    System.String CenaZVAT1 : Public
+    Double CenaZVAT1a : Public
+    System.String KwotaPodatku2 : Public
+    Double KwotaPodatku2a : Public
+    System.String CenaZVAT2 : Public
+    Double CenaZVAT2a : Public
+    System.String KwotaPodatku3 : Public
+    Double KwotaPodatku3a : Public
+    System.String CenaZVAT3 : Public
+    Double CenaZVAT3a : Public
+    System.String KwotaPodatku4 : Public
+    Double KwotaPodatku4a : Public
+    System.String CenaZVAT4 : Public
+    Double CenaZVAT4a : Public
+    System.String CenaDoZaplaty : Public
+Class Wyporzyczalnia.Klienci: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String BazaDanychSQL : Public
+    Int32 ID_U : Public
+    Int32 id_rekordu : Public
+Class Wyporzyczalnia.Pracownicy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String BazaDanychSQL : Public
+    Int32 ID_U : Public
+    Int32 id_rekordu : Public
+Class Wyporzyczalnia.Samochody: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String BazaDanychSQL : Public
+    Int32 ID_U : Public
+    Int32 id_rekordu : Public
+    Int32 id_naprawy : Public
+Class Wyporzyczalnia.Rezerwacja: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String BazaDanychSQL : Public
+    System.String DataRezerwacji : Public
+    System.String DataZwrotu : Public
+    System.Decimal Cena_samochodu : Public
+    System.String CenaDoBazy : Public
+    Int32 ID_U : Public
+    Int32 id_rekordu_klienta : Public
+    Int32 id_rekordu_samochodu : Public
+    Int32 time1 : Public
+    Int32 time2 : Public
+    Int32 dataI : Public
+    Int32 dataII : Public
+    Int32 DataStartDzien : Public
+    Int32 DataStopDzien : Public
+    Int32 DataStartMiesiac : Public
+    Int32 DataStopMiesiac : Public
+    Int32 DataStartRok : Public
+    Int32 DataStopRok : Public
+Class Wyporzyczalnia.ZmienHaslo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID_U : Public
+    System.String BazaDanychSQL : Public
+Class Wyporzyczalnia.Trwajace: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String BazaDanychSQL : Public
+    Int32 ID_U : Public
+    Int32 ID_Klienta : Public
+    Int32 ID_Pracownik : Public
+    Int32 ID_Samochodu : Public
+    System.String data_rejestracji : Public
+    System.String data_zwrotu : Public
+    System.String czas_rejestacji : Public
+    System.String czas_zwrotu : Public
+    Int32 Dzien1 : Public
+    Int32 Miesiac1 : Public
+    Int32 Rok1 : Public
+    Int32 Czas1 : Public
+    Int32 Dzien2 : Public
+    Int32 Miesiac2 : Public
+    Int32 Rok2 : Public
+    Int32 Czas2 : Public
+    System.String CenaS : Public
+    System.Decimal Cena : Public
+    System.Decimal Cena_rejestracja : Public
+    Double CenaLaczna : Public
+    System.Decimal Odsetki : Public
+Class Wyporzyczalnia.Zwrot: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String BazaDanychSQL : Public
+    System.String data_rejestracji : Public
+    System.String data_zwrotu : Public
+    System.String czas_rejestacji : Public
+    System.String czas_zwrotu : Public
+    System.String data_zwrotu_teraz : Public
+    System.String czas_zwrotu_teraz : Public
+    Int32 ID_Rejestracja : Public
+    Int32 ID_Klienta : Public
+    Int32 ID_Pracownik : Public
+    Int32 ID_Samochodu : Public
+    Int32 Dzien1 : Public
+    Int32 Miesiac1 : Public
+    Int32 Rok1 : Public
+    Int32 Czas1 : Public
+    Int32 Dzien2 : Public
+    Int32 Miesiac2 : Public
+    Int32 Rok2 : Public
+    Int32 Czas2 : Public
+    System.String CenaS : Public
+    System.Decimal Cena : Public
+    System.Decimal Cena_rejestracja : Public
+    System.Decimal Odsetki : Public
+    System.Decimal Wymaga_naprawy : Public
+    System.Decimal Dodatkowe : Public
+    System.Decimal Rabat : Public
+    System.String Odsetki_Kropka : Public
+    System.String Wymaga_naprawy_Kropka : Public
+    System.String Dodatkowe_Kropka : Public
+    System.String Rabat_Kropka : Public
+    Double CenaLaczna : Public
+    Double CenaOstateczna : Public
+    Int32 ID_U : Public
+Class Wyporzyczalnia.PlatnosciMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID_U : Public
+    System.String BazaDanychSQL : Public
+Class Wyporzyczalnia.StatystykiAuta: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID_U : Public
+    System.String BazaDanychSQL : Public
+Class Wyporzyczalnia.OpisProjektu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Wyporzyczalnia.OknoMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String BazaDanychSQL : Public
+    Int32 ID_U : Public
+Class Wyporzyczalnia.Logowanie: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
